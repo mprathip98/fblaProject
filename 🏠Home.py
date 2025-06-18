@@ -21,7 +21,7 @@ page_bg_img = f"""
     background-color: rgba(0, 0, 0, 0);
 }}
 
-.st-emotion-cache-qcpnpn{{
+.st-emotion-cache-16h9saz{{
     background-color: rgba(0, 0, 0, 0.65);
 }}
 
