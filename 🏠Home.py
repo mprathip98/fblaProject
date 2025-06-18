@@ -103,7 +103,7 @@ def endResult():
                 #sl.session_state.story_text = "Welcome to the Enchanted Village, a place where every day is filled with wonder and surprises! Today, you find yourself standing at the edge of the village square. Two paths stretch before you, each offering its own peculiar charm."
                 sl.session_state.titleName = ""
                 sl.rerun()
-
+        
         colStops, colStops2, colStops3 = sl.columns([1,1,4.3])
         with colStops3:
             text2 = sl.session_state.storyList
@@ -115,6 +115,21 @@ def endResult():
                 mime="application/pdf"
             )
             sl.text(" ")
+    sl.text(" ")
+    sl.text(" ")
+    sl.text(" ")
+    sl.text(" ")
+    sl.text(" ")
+    sl.text(" ")
+    sl.text(" ")
+    sl.text(" ")
+    sl.text(" ")
+    sl.text(" ")
+    sl.text(" ")
+    sl.text(" ")
+    sl.text(" ")
+    sl.text(" ")
+    sl.text(" ")    
     with database.session as session:
         session.execute(
             text("INSERT INTO storydata (name, story) VALUES (:name, :story)"),
