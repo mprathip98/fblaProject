@@ -130,6 +130,8 @@ def endResult():
     sl.text(" ")
     sl.text(" ")
     sl.text(" ")    
+    sl.text(" ")
+    sl.text(" ") 
     with database.session as session:
         session.execute(
             text("INSERT INTO storydata (name, story) VALUES (:name, :story)"),
