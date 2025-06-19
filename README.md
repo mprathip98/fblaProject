@@ -27,5 +27,5 @@ Documentation
  - This project uses Streamlit to cast the website and deploy it through the Streamlit Community Cloud.
       - Design Documentation: https://docs.streamlit.io/
       - Streamlit Community Cloud Deployment Documentation: https://docs.streamlit.io/deploy/streamlit-community-cloud
-- Used fdpf for the pdf generation
+- Used FPDF for the pdf generation
 - Used sqlAlchemy for the database 
