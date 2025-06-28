@@ -8,6 +8,7 @@ About
       - About - Quick facts about the project
       - Instructions - Simple instructions to use the app.
  - It has a responsive design, adapting to any screen size.
+ - Use Unsplash for the main images on the three pages and used ChatGPT's AI model to generate the background image through the story.
 
 
 --------------
